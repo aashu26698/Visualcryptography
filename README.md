@@ -2,7 +2,7 @@
 
 Takes an input image, flips a coin for each pixel, and "encrypts" to one of two output images. Image can only be viewed when output images are lined up. Ideally, you need all the component images (2 in this case) to recover the original. However, if your random number generator is poor, I suspect this is one potential attack vector.
 
-Works best on high-contrast images. Small details will probably be lost. For example, Lenna didn't turn out so great.
+Works best on high-contrast images. Small details will probably be lost. 
 
 Usage:
 
